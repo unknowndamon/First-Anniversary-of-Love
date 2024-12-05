@@ -35,7 +35,7 @@ function preshowImage(){
 	document.getElementById("imgTxt").style.opacity = 0;
 	myImage.setAttribute("src", imageArray[imageIndex]);
 	myTxt.innerHTML = txtArray[imageIndex];
-	imageIndex++;
+	imageindex++;
 	if(imageIndex >= len){
 		imageIndex = 0;
 	}
